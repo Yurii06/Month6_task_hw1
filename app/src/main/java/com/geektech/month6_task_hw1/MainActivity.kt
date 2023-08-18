@@ -1,6 +1,5 @@
 package com.geektech.month6_task_hw1
 
-import android.annotation.SuppressLint
 import android.app.Activity
 import android.content.DialogInterface
 import android.content.Intent
@@ -13,7 +12,7 @@ import androidx.lifecycle.ViewModelProvider
 import com.geektech.month6_task_hw1.databinding.ActivityMainBinding
 import com.geektech.month6_task_hw1.model.Task
 import com.geektech.month6_task_hw1.ui.TaskActivity
-import com.geektech.month6_task_hw1.ui.TaskAdapter
+import com.geektech.month6_task_hw1.ui.adapter.TaskAdapter
 
 class MainActivity : AppCompatActivity() {
 
